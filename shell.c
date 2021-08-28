@@ -251,7 +251,7 @@ int main(){//Função main. Executa os testes requisitados.
           for(k=0; k < MAX_ITEMS; k++) {//Copia o buffer para bufferClone.
             bufferClone[k] = buffer[k];
           }
-          /*switch(j){//Varia entres os tipos de shell.
+          switch(j){//Varia entres os tipos de shell.
             case 0:
               shellSortBASE2T(bufferClone, nItems, output);
               break;
@@ -261,9 +261,7 @@ int main(){//Função main. Executa os testes requisitados.
             case 2:
               shellSortCIURAT(bufferClone, nItems, output);
               break;
-          }*/
-          shellSortCIURAT(bufferClone, nItems, output);
-          puts("kek");
+          }        
         }
       }
     }
