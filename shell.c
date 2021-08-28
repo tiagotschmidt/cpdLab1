@@ -1,5 +1,5 @@
+// Trabalho Laboratório 1 - Classificação e Pesquisa de Dados - Gabriel Castelo Branco Gomes e Tiago Torres Schmidt.
 #include <stdio.h>//Bibliotecas utilizadas no projeto.
-#include <math.h>
 #include <time.h>
 
 #define MAX_ITEMS 1000000//Constantes utilizadas no projeto.
